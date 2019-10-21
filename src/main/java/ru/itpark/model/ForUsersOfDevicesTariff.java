@@ -1,10 +1,10 @@
 package ru.itpark.model;
 
-public class ForUsersOfDevices extends Tariff {
+public class ForUsersOfDevicesTariff extends Tariff {
     private int costOfTransition;
     private int costOfReChanging;
 
-    public ForUsersOfDevices(long id, String name, int subscriptionFee, boolean unlimitedInternet, String territoryOfAction, String servicesIncludedInTariff, String features, boolean downloadDetailedInformationAboutTariff, boolean select, int costOfTransition, int costOfReChanging) {
+    public ForUsersOfDevicesTariff(long id, String name, int subscriptionFee, boolean unlimitedInternet, String territoryOfAction, String servicesIncludedInTariff, String features, boolean downloadDetailedInformationAboutTariff, boolean select, int costOfTransition, int costOfReChanging) {
         super(id, name, subscriptionFee, unlimitedInternet, territoryOfAction, servicesIncludedInTariff, features, downloadDetailedInformationAboutTariff, select);
         this.costOfTransition = costOfTransition;
         this.costOfReChanging = costOfReChanging;

@@ -1,10 +1,10 @@
 package ru.itpark.model;
 
-public class Include extends Tariff{
+public class TurnOnTariff extends Tariff{
     private boolean unlimitedInternetForMessengers;
     private boolean cashback;
 
-    public Include(long id, String name, int subscriptionFee, boolean unlimitedInternet, String territoryOfAction, String servicesIncludedInTariff, String features, boolean downloadDetailedInformationAboutTariff, boolean select, boolean unlimitedInternetForMessengers, boolean cashback) {
+    public TurnOnTariff(long id, String name, int subscriptionFee, boolean unlimitedInternet, String territoryOfAction, String servicesIncludedInTariff, String features, boolean downloadDetailedInformationAboutTariff, boolean select, boolean unlimitedInternetForMessengers, boolean cashback) {
         super(id, name, subscriptionFee, unlimitedInternet, territoryOfAction, servicesIncludedInTariff, features, downloadDetailedInformationAboutTariff, select);
         this.unlimitedInternetForMessengers = unlimitedInternetForMessengers;
         this.cashback = cashback;
